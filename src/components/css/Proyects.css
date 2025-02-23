@@ -1,0 +1,45 @@
+.card-per {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto; /* Cambiado para que se ajuste al contenido */
+    max-width: 600px; /* Reduce el ancho máximo */
+    padding: 10px; /* Reduce el espacio interno */
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px; /* Reduce el tamaño del texto */
+}
+
+.btn-per {
+    background-color: #8A2BE2;
+    border: 2px #8A2BE2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px; /* Reduce el tamaño del botón */
+    font-size: 12px; /* Reduce el tamaño del texto del botón */
+    align-self: center;
+}
+.container-per {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que las tarjetas bajen si no caben */
+    gap: 20px;  /* Espacio entre tarjetas */
+    justify-content: center; /* Centra las tarjetas en la fila */
+}
+
+.text-proy{
+
+
+    text-align: center;
+    margin: 50px;
+}
+

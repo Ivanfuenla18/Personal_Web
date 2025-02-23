@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #0D0D0D; /* Negro Profundo */
+ 
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000; /* Asegura que esté encima de otros elementos */
+      transition: background-color 0.3s ease-in-out;
+    
+    
+  }
+
+  .navbar-brand {
+    color: #ffffff !important; /* Morado Neón */
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s;
+    padding-left: 10px;
+
+  }
+  
+  .navbar-nav .nav-link {
+    color: #EDEDED !important; /* Blanco Neón */
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  
+  .navbar-nav ,.navbar-brand:hover, .nav-link:hover {
+    color: #8A2BE2 !important; /* Morado Neón */
+  }
+  
+  

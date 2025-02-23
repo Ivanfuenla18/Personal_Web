@@ -1,0 +1,18 @@
+
+.text{
+
+   
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+.text-sobr{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.fot {
+    border-radius: 50px; /* Ajusta este valor según el nivel de redondez que quieras */
+}
+

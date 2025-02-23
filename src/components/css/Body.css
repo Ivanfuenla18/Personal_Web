@@ -1,0 +1,11 @@
+.background {
+  background-image: url(../../../public/Fondo.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.text-prim{
+  color: #1A1A1A;
+}
