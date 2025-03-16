@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Anubis_Gaming_2.0/static/css/main.396dbcd7.css",
+    "main.js": "/Anubis_Gaming_2.0/static/js/main.7b46503b.js",
+    "static/js/453.94cbcad5.chunk.js": "/Anubis_Gaming_2.0/static/js/453.94cbcad5.chunk.js",
+    "index.html": "/Anubis_Gaming_2.0/index.html",
+    "main.396dbcd7.css.map": "/Anubis_Gaming_2.0/static/css/main.396dbcd7.css.map",
+    "main.7b46503b.js.map": "/Anubis_Gaming_2.0/static/js/main.7b46503b.js.map",
+    "453.94cbcad5.chunk.js.map": "/Anubis_Gaming_2.0/static/js/453.94cbcad5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.396dbcd7.css",
+    "static/js/main.7b46503b.js"
+  ]
+}
