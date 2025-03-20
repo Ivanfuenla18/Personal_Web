@@ -9,11 +9,6 @@ Este proyecto es una página web personal diseñada para mostrar información so
 - **Sección de proyectos**: Muestra una galería de proyectos con imágenes y descripciones breves.
 - **Sección de contacto**: Proporciona enlaces a mis perfiles de GitHub, LinkedIn y una dirección de correo electrónico para contacto directo.
 
-## 📂 Estructura del Proyecto
-
-La estructura principal del proyecto es la siguiente:
-
-📦 Personal_Web ├── 📜 index.html # Archivo principal de la web ├── 📁 static # Recursos estáticos como imágenes e íconos │ ├── 🎨 Annubis.png │ ├── 🌄 Fondo.png │ ├── 🖼️ Foto-perfil.png │ ├── 🎮 Tres_en_raya.png │ ├── 🔗 github-100.png │ ├── 🔗 linkedin-100.png │ ├── 📧 gmail-nuevo-100.png │ ├── 📜 manifest.json │ ├── 🤖 robots.txt │ ├── 📜 asset-manifest.json │ ├── 🏗️ proges.jpg
 
 less
 Copiar código
