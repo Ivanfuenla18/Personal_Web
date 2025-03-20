@@ -10,8 +10,7 @@ Este proyecto es una página web personal diseñada para mostrar información so
 - **Sección de contacto**: Proporciona enlaces a mis perfiles de GitHub, LinkedIn y una dirección de correo electrónico para contacto directo.
 
 
-less
-Copiar código
+
 
 ## 🌐 Cómo ver el sitio
 
