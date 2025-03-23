@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "nav_title": "Iván PS",
+    "nav_home": "Inicio",
+    "nav_about": "Sobre mí",
+    "nav_projects": "Proyectos",
+    "nav_contact": "Contacto",
+    "nav_experience": "Experiencia"
+  },
+  "home": {
+    "welcome": "¡Bienvenido!"
+  },
+  "about": {
+    "title": "¡Hola! Soy Iván Paniagua Sánchez",
+    "description": "Un apasionado desarrollador de software con formación en Desarrollo de Aplicaciones Web (DAW) y Desarrollo de Aplicaciones Multiplataforma (DAM).",
+    "details": [
+      "Me encanta la programación y siempre estoy buscando aprender nuevas tecnologías para mejorar mis habilidades. Durante mi formación, he trabajado con HTML, CSS, JavaScript, React, PHP, Java, Python y bases de datos como MySQL. Mi objetivo es crear soluciones eficientes y bien estructuradas, ya sea en desarrollo web o en aplicaciones móviles y de escritorio.",
+      "Soy una persona curiosa y autodidacta, con muchas ganas de afrontar nuevos retos en el mundo de la tecnología. ¡Si quieres saber más sobre mí o colaborar en un proyecto, no dudes en contactarme! 🚀"
+    ]
+  },
+  "projects": [
+    {
+      "title": "FullStackOpen",
+      "status": "🚧🚧 Actualmente Estudiando 🚧🚧",
+      "description": "Este proyecto es un curso full-stack donde se usan React y Node.js. El curso profundiza en estos frameworks, además de cubrir JavaScript, HTML y CSS. Incluye un certificado al finalizar.",
+      "image": "FullStackOpen.png",
+      "github": "https://github.com/Ivanfuenla18/FullStackOpen",
+      "button": "Ver código"
+    },
+    {
+      "title": "Anubis Gaming",
+      "description": "Este proyecto es un sitio web de ventas de videojuegos desarrollado con HTML, CSS, JavaScript, PHP y MySQL. Incluye un chatbot llamado THOT para ayudar a los usuarios a encontrar juegos, un mini juego de azar llamado MEHEN, un sistema de autenticación de usuarios, y una tienda con carrito de compras y sistema de monedas canjeables. Fue implementado utilizando tecnologías como Node.js, Express y AJAX para una experiencia interactiva y personalizada.",
+      "image": "Annubis.png",
+      "github": "https://github.com/Ivanfuenla18/Anubis-Gaming",
+      "button": "Ver código"
+    },
+    {
+      "title": "Anubis Gaming 2.0",
+      "status": "🚧🚧 EN DESARROLLO 🚧🚧",
+      "description": "Este proyecto será una versión mejorada del proyecto Anubis Gaming, aplicando conocimientos del framework React y Node.js con Express como servidor backend.",
+      "image": "anubis.png",
+      "github": "https://github.com/Ivanfuenla18/Anubis-Gaming-2.0",
+      "button": "Ver código"
+    },
+    {
+      "title": "Tic-Tac-Toe",
+      "description": "Este proyecto es un clásico juego de Tic-Tac-Toe desarrollado con HTML, CSS y JavaScript puro, sin frameworks ni bibliotecas adicionales. Es un juego para dos jugadores en el que los jugadores se turnan para marcar 'X' y 'O' en una cuadrícula de 3x3.",
+      "image": "Tres_en_raya.png",
+      "github": "https://github.com/Ivanfuenla18/Tres-en-raya",
+      "button": "Ver código"
+    }
+  ],
+  "experience": [
+    {
+      "year": "2023",
+      "title": "Grado superior de desarrollo de aplicaciones multiplataforma",
+      "institution": "I.E.S Gaspar Melchor de Jovellanos - Fuenlabrada",
+      "description": "Formación en desarrollo de aplicaciones multiplataforma. Enfoque en creación de aplicaciones para diferentes plataformas como Android y más."
+    },
+    {
+      "year": "2022",
+      "title": "Grado superior de desarrollo de aplicaciones web",
+      "institution": "I.E.S Mátematico Puig Adam - Getafe",
+      "description": "Formación en desarrollo de aplicaciones web, con enfoque en tecnologías como HTML, CSS, JavaScript y bases de datos."
+    },
+    {
+      "year": "2021",
+      "title": "Bachillerato Modalidad: Ciencias",
+      "institution": "I.E.S Dolores Ibarrui - Fuenlabrada",
+      "description": "Formación en ciencias, con asignaturas de matemáticas, física y química."
+    },
+    {
+      "year": "2020",
+      "title": "Estudios secundarios obligatorios",
+      "institution": "I.E.S Dolores Ibarrui - Fuenlabrada",
+      "description": "Finalización de la educación secundaria obligatoria."
+    }
+  ],
+  "contact": {
+  "title": "Contacto",
+  "description": "Puedes contactarme a través de mis redes o enviándome un correo.",
+  "subject": "Asunto",
+  "message": "Mensaje",
+  "send": "Enviar"
+}
+
+}

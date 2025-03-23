@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "nav_title": "Iván PS",
+    "nav_home": "Home",
+    "nav_about": "About Me",
+    "nav_projects": "Projects",
+    "nav_contact": "Contact",
+    "nav_experience": "Experience"
+  },
+  "home": {
+    "welcome": "Welcome!"
+  },
+  "about": {
+    "title": "Hello! I'm Iván Paniagua Sánchez",
+    "description": "A passionate software developer with training in Web Application Development (DAW) and Multiplatform Application Development (DAM).",
+    "details": [
+      "I love programming and I'm always looking to learn new technologies to improve my skills. During my training, I have worked with HTML, CSS, JavaScript, React, PHP, Java, Python, and databases such as MySQL. My goal is to create efficient and well-structured solutions, whether in web development or mobile and desktop applications.",
+      "I am a curious, self-taught person eager to take on new challenges in the technology world. If you want to learn more about me or work together on a project, don't hesitate to contact me! 🚀"
+    ]
+  },
+  "projects": [
+    {
+      "title": "FullStackOpen",
+      "status": "🚧🚧 Currently Studying 🚧🚧",
+      "description": "This project is a full-stack course where React and Node.js are used. The course goes deep into these frameworks while also covering JavaScript, HTML, and CSS. It also includes a certification upon completion.",
+      "image": "FullStackOpen.png",
+      "github": "https://github.com/Ivanfuenla18/FullStackOpen",
+      "button": "See code"
+    },
+    {
+      "title": "Anubis Gaming",
+      "description": "This project is a video game sales website developed with HTML, CSS, JavaScript, PHP, and MySQL. It includes a chatbot named THOT to help users find games, a gambling minigame called MEHEN, a user authentication system, and a store with a shopping cart and redeemable coin system. It was implemented using technologies like Node.js, Express, and AJAX for an interactive and personalized experience.",
+      "image": "Annubis.png",
+      "github": "https://github.com/Ivanfuenla18/Anubis-Gaming",
+      "button": "See code"
+    },
+    {
+      "title": "Anubis Gaming 2.0",
+      "status": "🚧🚧 IN DEVELOPMENT 🚧🚧",
+      "description": "This project will be an improved version of the Anubis Gaming project, applying knowledge of the React framework and Node.js with Express as the backend server.",
+      "image": "anubis.png",
+      "github": "https://github.com/Ivanfuenla18/Anubis-Gaming-2.0",
+      "button": "See code"
+    },
+    {
+      "title": "Tic-Tac-Toe",
+      "description": "This project is a classic Tic-Tac-Toe game developed with pure HTML, CSS, and JavaScript, without any frameworks or additional libraries. It is a two-player game where players take turns marking 'X' and 'O' on a 3x3 grid.",
+      "image": "Tres_en_raya.png",
+      "github": "https://github.com/Ivanfuenla18/Tres-en-raya",
+      "button": "See code"
+    }
+  ],
+  "experience": [
+    {
+      "year": "2023",
+      "title": "Higher Technical Degree in Multiplatform Application Development",
+      "institution": "I.E.S Gaspar Melchor de Jovellanos - Fuenlabrada",
+      "description": "Training in multiplatform application development. Focus on creating apps for different platforms like Android and more."
+    },
+    {
+      "year": "2022",
+      "title": "Higher Technical Degree in Web Application Development",
+      "institution": "I.E.S Mátematico Puig Adam - Getafe",
+      "description": "Training in web application development, with a focus on technologies like HTML, CSS, JavaScript, and databases."
+    },
+    {
+      "year": "2021",
+      "title": "Baccalaureate in Science",
+      "institution": "I.E.S Dolores Ibarrui - Fuenlabrada",
+      "description": "Training in science, with subjects like mathematics, physics, and chemistry."
+    },
+    {
+      "year": "2020",
+      "title": "Compulsory Secondary Education",
+      "institution": "I.E.S Dolores Ibarrui - Fuenlabrada",
+      "description": "Completion of compulsory secondary education."
+    }
+  ],
+  "contact": {
+  "title": "Contact",
+  "description": "You can reach me through my social media or by sending me an email.",
+  "subject": "Subject",
+  "message": "Message",
+  "send": "Send"
+}
+
+}
