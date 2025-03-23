@@ -1,6 +1,6 @@
 {
   "nav": {
-    "nav_title": "Iván PS",
+    "nav_title": "Ivan PS",
     "nav_home": "Home",
     "nav_about": "About Me",
     "nav_projects": "Projects",
@@ -11,7 +11,7 @@
     "welcome": "Welcome!"
   },
   "about": {
-    "title": "Hello! I'm Iván Paniagua Sánchez",
+    "title": "Hello! I'm Ivan Paniagua Sanchez",
     "description": "A passionate software developer with training in Web Application Development (DAW) and Multiplatform Application Development (DAM).",
     "details": [
       "I love programming and I'm always looking to learn new technologies to improve my skills. During my training, I have worked with HTML, CSS, JavaScript, React, PHP, Java, Python, and databases such as MySQL. My goal is to create efficient and well-structured solutions, whether in web development or mobile and desktop applications.",
