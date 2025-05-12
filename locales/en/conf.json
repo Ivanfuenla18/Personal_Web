@@ -20,7 +20,14 @@
   },
   "projects": [
     {
-      "title": "FullStackOpen",
+      "title": "FlowSweet",
+      "description": "A flower shop website built using React and Tailwind CSS. It features a modern, responsive design and multiple pages like Home, About, and Contact. The project is deployed on GitHub Pages.",
+      "image": "FlowSweet.png",
+      "github": "https://github.com/Ivanfuenla18/FlowSweet",
+      "button": "See code"
+    },
+    {
+      "title": "FullStadddddddckOpen",
       "status": "🚧🚧 Currently Studying 🚧🚧",
       "description": "This project is a full-stack course where React and Node.js are used. The course goes deep into these frameworks while also covering JavaScript, HTML, and CSS. It also includes a certification upon completion.",
       "image": "FullStackOpen.png",
@@ -77,11 +84,10 @@
     }
   ],
   "contact": {
-  "title": "Contact",
-  "description": "You can reach me through my social media or by sending me an email.",
-  "subject": "Subject",
-  "message": "Message",
-  "send": "Send"
-}
-
+    "title": "Contact",
+    "description": "You can reach me through my social media or by sending me an email.",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send"
+  }
 }
