@@ -21,6 +21,7 @@
   "projects": [
     {
       "title": "FlowSweet",
+      "status": "🚧🚧 EN DESARROLLO 🚧🚧",
       "description": "Sitio web de una floristería desarrollado con React y Tailwind CSS. Cuenta con un diseño moderno y responsivo, incluyendo páginas como Inicio, Acerca de y Contacto. El proyecto está desplegado en GitHub Pages.",
       "image": "FlowSweet.png",
       "github": "https://ivanfuenla18.github.io/FlowSweet/",
