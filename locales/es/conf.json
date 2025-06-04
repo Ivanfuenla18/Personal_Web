@@ -20,8 +20,15 @@
   },
   "projects": [
     {
-      "title": "FlowSweet",
+      "title": "Feedloop",
       "status": "🚧🚧 EN DESARROLLO 🚧🚧",
+      "description": "Feedloop es aplicación web donde los miembros de un equipo pueden enviar feedback anónimo o identificado entre ellos. Ideal para entornos de trabajo colaborativos, equipos remotos o startups. Incluye paneles de administración, seguimiento de tendencias y gestión de usuarios.",
+      "image": "Feedloop.png",
+      "github": "https://github.com/Ivanfuenla18/Feedloop",
+      "button": "Ver código"
+    },
+    {
+      "title": "FlowSweet",
       "description": "Sitio web de una floristería desarrollado con React y Tailwind CSS. Cuenta con un diseño moderno y responsivo, incluyendo páginas como Inicio, Acerca de y Contacto. El proyecto está desplegado en GitHub Pages.",
       "image": "FlowSweet.png",
       "github": "https://ivanfuenla18.github.io/FlowSweet/#/",
