@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "nav_title": "Iván PS",
+    "nav_home": "Home",
+    "nav_about": "About Me",
+    "nav_projects": "Projects",
+    "nav_contact": "Contact",
+    "nav_experience": "Experience"
+  },
+  "home": {
+    "welcome": "Welcome!"
+  },
+  "about": {
+    "title": "Hi! I'm Iván Paniagua Sánchez",
+    "description": "Passionate software developer, trained in Web Application Development (DAW) and Multiplatform Application Development (DAM).",
+    "details": [
+      "I love to code and am always looking to learn new technologies to improve my skills. During my training, I have worked with HTML, CSS, JavaScript, React, PHP, Java, Python, and databases like MySQL. My goal is to create efficient and well-structured solutions, whether in web development or mobile and desktop applications.",
+      "I am a curious, self-taught individual with a strong desire to take on new challenges in the world of technology. If you want to know more about me or collaborate on a project, don't hesitate to contact me! 🚀"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Interactive Pokedex",
+      "description": "A modern web application that allows you to explore a list of Pokémon, view their basic data such as image, ID, and types, and enjoy an interactive and responsive interface. Developed using React, Vite, and Tailwind CSS, fetching data from PokeAPI.",
+      "image": "Pokedex.png",
+      "status": "🚧🚧 IN DEVELOPMENT 🚧🚧",
+      "github": "https://ivanfuenla18.github.io/Pokedex",
+      "button": "View Page"
+    },
+    {
+      "title": "Feedloop",
+      "status": "🚧🚧 IN DEVELOPMENT 🚧🚧",
+      "description": "Feedloop is a web application where team members can send anonymous or identified feedback to each other. Ideal for collaborative work environments, remote teams, or startups. Includes admin panels, trend tracking, and user management.",
+      "image": "Feedloop.png",
+      "github": "https://github.com/Ivanfuenla18/Feedloop",
+      "button": "View Code"
+    },
+    {
+      "title": "FlowSweet",
+      "description": "Florist website developed with React and Tailwind CSS. Features a modern and responsive design, including pages like Home, About, and Contact. The project is deployed on GitHub Pages.",
+      "image": "FlowSweet.png",
+      "github": "https://ivanfuenla18.github.io/FlowSweet/#/",
+      "button": "View Page"
+    },
+    {
+      "title": "FullStackOpen",
+      "status": "🚧🚧 Currently Studying 🚧🚧",
+      "description": "Project based on a full-stack course that uses React and Node.js. It delves into these frameworks, also covering JavaScript, HTML, and CSS. Includes certification upon completion.",
+      "image": "FullStackOpen.png",
+      "github": "https://github.com/Ivanfuenla18/FullStackOpen",
+      "button": "View Code"
+    },
+    {
+      "title": "Anubis Gaming",
+      "description": "Video game sales website developed with HTML, CSS, JavaScript, PHP, and MySQL. Includes a chatbot named THOT, a mini-game called MEHEN, user authentication system, and a store with a cart and coin system. Technologies like Node.js, Express, and AJAX were used.",
+      "image": "Annubis.png",
+      "github": "https://github.com/Ivanfuenla18/Anubis-Gaming",
+      "button": "View Code"
+    },
+    {
+      "title": "Anubis Gaming 2.0",
+
+      "description": "Improved version of the Anubis Gaming project, applying knowledge of the React framework and Node.js with Express as a backend server.",
+      "image": "anubis.png",
+      "github": "https://github.com/Ivanfuenla18/Anubis-Gaming-2.0",
+      "button": "View Code"
+    },
+    {
+      "title": "Tic-Tac-Toe",
+      "description": "Classic Tic-Tac-Toe game developed with pure HTML, CSS, and JavaScript, without external frameworks or libraries. It's a two-player game where players take turns marking 'X' and 'O' on a 3x3 grid.",
+      "image": "Tres_en_raya.png",
+      "github": "https://github.com/Ivanfuenla18/Tres-en-raya",
+      "button": "View Code"
+    }
+  ],
+  "experience": [
+    {
+      "year": "2023",
+      "title": "Higher Degree in Multiplatform Application Development",
+      "institution": "I.E.S Gaspar Melchor de Jovellanos - Fuenlabrada",
+      "description": "Training in multiplatform application development. Focus on creating apps for different platforms such as Android, among others."
+    },
+    {
+      "year": "2022",
+      "title": "Higher Degree in Web Application Development",
+      "institution": "I.E.S Matemático Puig Adam - Getafe",
+      "description": "Training in web application development, with a focus on technologies such as HTML, CSS, JavaScript, and databases."
+    },
+    {
+      "year": "2021",
+      "title": "Science Baccalaureate",
+      "institution": "I.E.S Dolores Ibárruri - Fuenlabrada",
+      "description": "Completion of science baccalaureate, with subjects like mathematics, physics, and chemistry."
+    },
+    {
+      "year": "2020",
+      "title": "Compulsory Secondary Education",
+      "institution": "I.E.S Dolores Ibárruri - Fuenlabrada",
+      "description": "Completion of compulsory secondary education."
+    }
+  ],
+  "contact": {
+    "title": "Contact",
+    "description": "You can reach me through my social media or by sending me an email.",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send"
+  }
+}
