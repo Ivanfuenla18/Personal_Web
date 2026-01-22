@@ -20,6 +20,14 @@
   },
   "projects": [
     {
+      "title": "World Countries & Weather",
+      "description": "A comprehensive application allowing users to search and explore data for over 250 countries. It integrates the OpenWeatherMap API to display real-time weather for capital cities. Built with React, Axios, and deployed on Vercel using secure environment variables.",
+      "image": "Countries.png",
+      "github": "https://countries-rouge-two.vercel.app",
+      "button": "View Page",
+      "url": "https://countries-rouge-two.vercel.app"
+    },
+    {
       "title": "Interactive Pokedex",
       "description": "A modern web application that allows you to explore a list of Pokémon, view their basic data such as image, ID, and types, and enjoy an interactive and responsive interface. Developed using React, Vite, and Tailwind CSS, fetching data from PokeAPI.",
       "image": "Pokedex.png",
@@ -43,9 +51,9 @@
       "button": "View Page"
     },
     {
-      "title": "FullStackOpen",
-      "status": "🚧🚧 Currently Studying 🚧🚧",
-      "description": "Project based on a full-stack course that uses React and Node.js. It delves into these frameworks, also covering JavaScript, HTML, and CSS. Includes certification upon completion.",
+      "title": "FullStackOpen Exercises",
+      "status": "📚 Currently Studying",
+      "description": "Central repository containing exercises from the FullStackOpen course by the University of Helsinki. Covers advanced React, Node.js, state management, and full-stack architecture.",
       "image": "FullStackOpen.png",
       "github": "https://github.com/Ivanfuenla18/FullStackOpen",
       "button": "View Code"
@@ -59,7 +67,6 @@
     },
     {
       "title": "Anubis Gaming 2.0",
-
       "description": "Improved version of the Anubis Gaming project, applying knowledge of the React framework and Node.js with Express as a backend server.",
       "image": "anubis.png",
       "github": "https://github.com/Ivanfuenla18/Anubis-Gaming-2.0",
@@ -67,7 +74,7 @@
     },
     {
       "title": "Tic-Tac-Toe",
-      "description": "Classic Tic-Tac-Toe game developed with pure HTML, CSS, and JavaScript, without external frameworks or libraries. It's a two-player game where players take turns marking 'X' and 'O' on a 3x3 grid.",
+      "description": "Classic Tic-Tac-Toe game developed with pure HTML, CSS, and JavaScript, without external frameworks or libraries. Features a two-player local mode.",
       "image": "Tres_en_raya.png",
       "github": "https://github.com/Ivanfuenla18/Tres-en-raya",
       "button": "View Code"

@@ -20,6 +20,14 @@
   },
   "projects": [
     {
+      "title": "World Countries & Weather",
+      "description": "Aplicación que permite buscar información detallada de más de 250 países. Integra la API de OpenWeatherMap para mostrar el clima en tiempo real de las capitales. Desarrollada con React, Axios y desplegada en Vercel con variables de entorno seguras.",
+      "image": "Countries.png",
+      "github": "https://countries-rouge-two.vercel.app",
+      "button": "Ver página",
+      "url": "https://countries-rouge-two.vercel.app"
+    },
+    {
       "title": "Pokedex Interactiva",
       "description": "Aplicación web moderna que te permite explorar una lista de Pokémon, visualizar sus datos básicos como imagen, ID y tipos, y disfrutar de una interfaz interactiva y responsiva. Desarrollada utilizando React, Vite y Tailwind CSS, con datos de la PokeAPI.",
       "image": "Pokedex.png",
@@ -43,23 +51,22 @@
       "button": "Ver pagina"
     },
     {
-      "title": "FullStackOpen",
-      "status": "🚧🚧 Actualmente estudiando 🚧🚧",
-      "description": "Proyecto basado en un curso full-stack que utiliza React y Node.js. Se profundiza en estos frameworks, además de cubrir JavaScript, HTML y CSS. Incluye una certificación al finalizar.",
+      "title": "FullStackOpen Exercises",
+      "status": "📚 En curso",
+      "description": "Repositorio central que contiene los ejercicios del curso FullStackOpen de la Universidad de Helsinki. Incluye partes de React, Node.js y gestión de estados.",
       "image": "FullStackOpen.png",
       "github": "https://github.com/Ivanfuenla18/FullStackOpen",
       "button": "Ver código"
     },
     {
       "title": "Anubis Gaming",
-      "description": "Sitio web de venta de videojuegos desarrollado con HTML, CSS, JavaScript, PHP y MySQL. Incluye un chatbot llamado THOT, un minijuego de azar llamado MEHEN, sistema de autenticación de usuarios y una tienda con carrito y sistema de monedas. Se utilizaron tecnologías como Node.js, Express y AJAX.",
+      "description": "Sitio web de venta de videojuegos desarrollado con HTML, CSS, JavaScript, PHP y MySQL. Incluye un chatbot llamado THOT, un minijuego de azar llamado MEHEN, sistema de autenticación de usuarios y una tienda con carrito y sistema de monedas.",
       "image": "Annubis.png",
       "github": "https://github.com/Ivanfuenla18/Anubis-Gaming",
       "button": "Ver código"
     },
     {
       "title": "Anubis Gaming 2.0",
-
       "description": "Versión mejorada del proyecto Anubis Gaming, aplicando conocimientos del framework React y Node.js con Express como servidor backend.",
       "image": "anubis.png",
       "github": "https://github.com/Ivanfuenla18/Anubis-Gaming-2.0",
@@ -67,7 +74,7 @@
     },
     {
       "title": "Tres en Raya",
-      "description": "Clásico juego de Tres en Raya desarrollado con HTML, CSS y JavaScript puro, sin frameworks ni librerías externas. Es un juego para dos jugadores que se turnan para marcar 'X' y 'O' en una cuadrícula de 3x3.",
+      "description": "Clásico juego de Tres en Raya desarrollado con HTML, CSS y JavaScript puro, sin frameworks ni librerías externas.",
       "image": "Tres_en_raya.png",
       "github": "https://github.com/Ivanfuenla18/Tres-en-raya",
       "button": "Ver código"
