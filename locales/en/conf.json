@@ -13,16 +13,16 @@
 
   "about": {
     "title": "Hi, I'm Iván Paniagua Sánchez 👋",
-    "description": "Full-Stack Developer & DAM/DAW Student 💻",
+    "description": "Full-Stack Developer | DAW & DAM Specialist 💻",
     "details": [
-      "As a Web Development graduate and current Multiplatform Development student, I have cultivated a mindset oriented towards technical problem-solving. My expertise ranges from dynamic UI design with React to robust backend systems in Java and PHP. 🚀",
-      "I am a strong advocate for continuous learning and adaptability. My current goal is to apply my analytical skills to high-impact projects, collaborating in environments that challenge my limits. 🛠️"
+      "With a strong technical background in Web (DAW) and Multiplatform (DAM) Development, I have built a versatile profile capable of tackling projects in any environment. I specialize in the modern JavaScript ecosystem, using React for the frontend and Node.js for scalable server architectures. 🚀",
+      "My experience ranges from creating dynamic interfaces to developing robust applications with Java, PHP, and SQL. I focus on applying development best practices and an analytical approach to solve complex technical problems and deliver high-quality solutions. 🛠️"
     ],
     "highlights": [
-      "✨ Growth-oriented mindset",
-      "🤝 Team player",
-      "🎯 Task management",
-      "🚗 Full availability"
+      "⚛️ React & Node.js ",
+      "📱 DAW & DAM Development",
+      "🤝 Team Player",
+      "🚀 Full-Stack Mindset"
     ]
   },
   "projects": [
