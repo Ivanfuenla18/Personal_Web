@@ -10,12 +10,19 @@
   "home": {
     "welcome": "¡Bienvenido!"
   },
+
   "about": {
-    "title": "¡Hola! Soy Iván Paniagua Sánchez",
-    "description": "Desarrollador de software apasionado, con formación en Desarrollo de Aplicaciones Web (DAW) y Desarrollo de Aplicaciones Multiplataforma (DAM).",
+    "title": "Hola, soy Iván Paniagua Sánchez 👋",
+    "description": "Desarrollador Full-Stack & Estudiante de DAM/DAW 💻",
     "details": [
-      "Me encanta programar y siempre estoy buscando aprender nuevas tecnologías para mejorar mis habilidades. Durante mi formación he trabajado con HTML, CSS, JavaScript, React, PHP, Java, Python y bases de datos como MySQL. Mi objetivo es crear soluciones eficientes y bien estructuradas, ya sea en desarrollo web o aplicaciones móviles y de escritorio.",
-      "Soy una persona curiosa, autodidacta y con muchas ganas de afrontar nuevos retos en el mundo de la tecnología. ¡Si quieres saber más sobre mí o colaborar en algún proyecto, no dudes en contactarme! 🚀"
+      "Como graduado en DAW y estudiante de DAM, he cultivado una mentalidad orientada a la resolución de problemas técnicos. Mi experiencia abarca desde el diseño de interfaces dinámicas con React hasta la arquitectura de sistemas backend robustos en Java y PHP. 🚀",
+      "Soy un firme defensor del aprendizaje continuo y la adaptabilidad. Mi objetivo actual es aplicar mi capacidad analítica en proyectos de alto impacto, colaborando en entornos que desafíen mis límites. 🛠️"
+    ],
+    "highlights": [
+      "✨ Mentalidad de crecimiento",
+      "🤝 Trabajo en equipo",
+      "🎯 Gestión de tareas",
+      "🚗 Disponibilidad total"
     ]
   },
   "projects": [

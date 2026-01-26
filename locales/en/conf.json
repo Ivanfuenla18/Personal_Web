@@ -10,12 +10,19 @@
   "home": {
     "welcome": "Welcome!"
   },
+
   "about": {
-    "title": "Hi! I'm Iván Paniagua Sánchez",
-    "description": "Passionate software developer, trained in Web Application Development (DAW) and Multiplatform Application Development (DAM).",
+    "title": "Hi, I'm Iván Paniagua Sánchez 👋",
+    "description": "Full-Stack Developer & DAM/DAW Student 💻",
     "details": [
-      "I love to code and am always looking to learn new technologies to improve my skills. During my training, I have worked with HTML, CSS, JavaScript, React, PHP, Java, Python, and databases like MySQL. My goal is to create efficient and well-structured solutions, whether in web development or mobile and desktop applications.",
-      "I am a curious, self-taught individual with a strong desire to take on new challenges in the world of technology. If you want to know more about me or collaborate on a project, don't hesitate to contact me! 🚀"
+      "As a Web Development graduate and current Multiplatform Development student, I have cultivated a mindset oriented towards technical problem-solving. My expertise ranges from dynamic UI design with React to robust backend systems in Java and PHP. 🚀",
+      "I am a strong advocate for continuous learning and adaptability. My current goal is to apply my analytical skills to high-impact projects, collaborating in environments that challenge my limits. 🛠️"
+    ],
+    "highlights": [
+      "✨ Growth-oriented mindset",
+      "🤝 Team player",
+      "🎯 Task management",
+      "🚗 Full availability"
     ]
   },
   "projects": [
