@@ -27,6 +27,14 @@
   },
   "projects": [
     {
+      "title": "Restaurants Near Me",
+      "description": "An application that retrieves a list of nearby restaurants using the Google Maps API. Developed with React and deployed on Vercel.",
+      "image": "Cafeterias.png",
+      "github": "https://github.com/Ivanfuenla18/Restaurants",
+      "button": "View Page",
+      "url": "https://restaurants-gray-two.vercel.app"
+    },
+    {
       "title": "World Countries & Weather",
       "description": "A comprehensive application allowing users to search and explore data for over 250 countries. It integrates the OpenWeatherMap API to display real-time weather for capital cities. Built with React, Axios, and deployed on Vercel using secure environment variables.",
       "image": "Countries.png",
@@ -39,7 +47,8 @@
       "description": "A modern web application that allows you to explore a list of Pokémon, view their basic data such as image, ID, and types, and enjoy an interactive and responsive interface. Developed using React, Vite, and Tailwind CSS, fetching data from PokeAPI.",
       "image": "Pokedex.png",
       "status": "🚧🚧 IN DEVELOPMENT 🚧🚧",
-      "github": "https://ivanfuenla18.github.io/Pokedex",
+      "github": "https://github.com/Ivanfuenla18/Pokedex",
+      "url": "https://ivanfuenla18.github.io/Pokedex",
       "button": "View Page"
     },
     {
@@ -54,7 +63,8 @@
       "title": "FlowSweet",
       "description": "Florist website developed with React and Tailwind CSS. Features a modern and responsive design, including pages like Home, About, and Contact. The project is deployed on GitHub Pages.",
       "image": "FlowSweet.png",
-      "github": "https://ivanfuenla18.github.io/FlowSweet/#/",
+      "github": "https://github.com/Ivanfuenla18/FlowSweet",
+      "url": "https://ivanfuenla18.github.io/FlowSweet/#/",
       "button": "View Page"
     },
     {

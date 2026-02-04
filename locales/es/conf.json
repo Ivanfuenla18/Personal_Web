@@ -27,10 +27,18 @@
   },
   "projects": [
     {
-      "title": "World Countries & Weather",
+      "title": "Restaurantes cerca de mí",
+      "description": "Aplicación que permite obtener una lista de restaurantes cercanos utilizando la API de Google Maps,Desarrollada con React y desplegada en Vercel.",
+      "image": "Cafeterias.png",
+      "github": "https://github.com/Ivanfuenla18/Restaurants",
+      "button": "Ver página",
+      "url": "https://restaurants-gray-two.vercel.app"
+    },
+    {
+      "title": "Paises del Mundo y Clima",
       "description": "Aplicación que permite buscar información detallada de más de 250 países. Integra la API de OpenWeatherMap para mostrar el clima en tiempo real de las capitales. Desarrollada con React, Axios y desplegada en Vercel con variables de entorno seguras.",
       "image": "Countries.png",
-      "github": "https://countries-rouge-two.vercel.app",
+      "github": "https://github.com/Ivanfuenla18/Countries",
       "button": "Ver página",
       "url": "https://countries-rouge-two.vercel.app"
     },
@@ -39,7 +47,8 @@
       "description": "Aplicación web moderna que te permite explorar una lista de Pokémon, visualizar sus datos básicos como imagen, ID y tipos, y disfrutar de una interfaz interactiva y responsiva. Desarrollada utilizando React, Vite y Tailwind CSS, con datos de la PokeAPI.",
       "image": "Pokedex.png",
       "status": "🚧🚧 EN DESARROLLO 🚧🚧",
-      "github": "https://ivanfuenla18.github.io/Pokedex",
+      "github": "https://github.com/Ivanfuenla18/Pokedex",
+      "url": "https://ivanfuenla18.github.io/Pokedex",
       "button": "Ver página"
     },
     {
@@ -54,7 +63,8 @@
       "title": "FlowSweet",
       "description": "Sitio web de una floristería desarrollado con React y Tailwind CSS. Cuenta con un diseño moderno y responsivo, incluyendo páginas como Inicio, Acerca de y Contacto. El proyecto está desplegado en GitHub Pages.",
       "image": "FlowSweet.png",
-      "github": "https://ivanfuenla18.github.io/FlowSweet/#/",
+      "github": "https://github.com/Ivanfuenla18/FlowSweet",
+      "url": "https://ivanfuenla18.github.io/FlowSweet/#/",
       "button": "Ver pagina"
     },
     {
