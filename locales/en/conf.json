@@ -27,12 +27,12 @@
   },
   "projects": [
     {
-      "title": "Restaurants Near Me",
-      "description": "An application that retrieves a list of nearby restaurants using the Google Maps API. Developed with React and deployed on Vercel.",
+      "title": "Cafe Near Me",
+      "description": "An application that retrieves a list of nearby cafe using the Google Maps API. Developed with React and deployed on Vercel.",
       "image": "Cafeterias.png",
-      "github": "https://github.com/Ivanfuenla18/Restaurants",
+      "github": "https://github.com/Ivanfuenla18/Cafe",
       "button": "View Page",
-      "url": "https://restaurants-gray-two.vercel.app"
+      "url": "https://cafe-nu-orcin.vercel.app"
     },
     {
       "title": "World Countries & Weather",
