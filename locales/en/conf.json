@@ -28,6 +28,7 @@
   "projects": [
     {
       "title": "Cafe Near Me",
+      "status": "🚧🚧 IN DEVELOPMENT 🚧🚧",
       "description": "An application that retrieves a list of nearby cafe using the Google Maps API. Developed with React and deployed on Vercel.",
       "image": "Cafeterias.png",
       "github": "https://github.com/Ivanfuenla18/Cafe",

@@ -28,6 +28,7 @@
   "projects": [
     {
       "title": "Cafeterias cerca de mí",
+      "status": "🚧🚧 EN DESARROLLO 🚧🚧",
       "description": "Aplicación que permite obtener una lista de cafeterías cercanas utilizando la API de Google Maps,Desarrollada con React y desplegada en Vercel.",
       "image": "Cafeterias.png",
       "github": "https://github.com/Ivanfuenla18/Cafe",
