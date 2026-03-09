@@ -27,6 +27,14 @@
   },
   "projects": [
     {
+      "title": "Phonebook",
+      "description": "Phonebook application developed with React and Node.js using Express as the backend server. It allows for contact management, including creating, editing, and deleting entries. Deployed on Render.",
+      "image": "Phonebook.png",
+      "github": "https://github.com/Ivanfuenla18/Phonebook-backend",
+      "button": "View Page",
+      "url": "https://phonebook-backend-nprq.onrender.com"
+    },
+    {
       "title": "Cafe Near Me",
       "status": "🚧🚧 IN DEVELOPMENT 🚧🚧",
       "description": "An application that retrieves a list of nearby cafe using the Google Maps API. Developed with React and deployed on Vercel.",

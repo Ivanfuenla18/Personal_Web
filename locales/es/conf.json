@@ -27,6 +27,15 @@
   },
   "projects": [
     {
+      "title": "Agenda telefonica",
+
+      "description": "Aplicación de una agenda telefonica desarrollada con React y Node usando Express como servidor backend. Permite gestionar contactos, incluyendo creación, edición y eliminación. Desplegada en render.",
+      "image": "Phonebook.png",
+      "github": "https://github.com/Ivanfuenla18/Phonebook-backend",
+      "button": "Ver página",
+      "url": "https://phonebook-backend-nprq.onrender.com"
+    },
+    {
       "title": "Cafeterias cerca de mí",
       "status": "🚧🚧 EN DESARROLLO 🚧🚧",
       "description": "Aplicación que permite obtener una lista de cafeterías cercanas utilizando la API de Google Maps,Desarrollada con React y desplegada en Vercel.",
