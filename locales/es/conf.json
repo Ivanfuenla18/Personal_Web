@@ -29,7 +29,7 @@
     {
       "title": "Agenda telefonica",
 
-      "description": "Aplicación de una agenda telefonica desarrollada con React y Node usando Express como servidor backend. Permite gestionar contactos, incluyendo creación, edición y eliminación. Desplegada en render.",
+      "description": "Aplicación de una agenda telefonica desarrollada con React y Node usando Express como servidor backend almacenando los datos con moongose en MongoDB. Permite gestionar contactos, incluyendo creación, edición y eliminación. Desplegada en render.",
       "image": "Phonebook.png",
       "github": "https://github.com/Ivanfuenla18/FullStackOpen/tree/main/part3/Phonebook_Backend",
       "button": "Ver página",

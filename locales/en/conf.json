@@ -28,7 +28,7 @@
   "projects": [
     {
       "title": "Phonebook",
-      "description": "Phonebook application developed with React and Node.js using Express as the backend server. It allows for contact management, including creating, editing, and deleting entries. Deployed on Render.",
+      "description": "Phone book application developed with React and Node using Express as a backend server, storing the data with moongose ​​in MongoDB. It allows you to manage contacts, including creation, editing and deletion. Deployed in render.",
       "image": "Phonebook.png",
       "github": "https://github.com/Ivanfuenla18/FullStackOpen/tree/main/part3/Phonebook_Backend",
       "button": "View Page",
