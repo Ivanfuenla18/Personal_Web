@@ -27,6 +27,16 @@
   },
   "projects": [
     {
+      "title": "NexusStock",
+      "status": "🚀 IN ACTIVE DEVELOPMENT",
+      "description": "Professional inventory management system. Built with a layered architecture (MVC), features secure user authentication using Bcrypt, and a robust MongoDB integration. It uses a custom automated workflow for Git and server management.",
+      "image": "NexusStock.png",
+      "github": "https://github.com/Ivanfuenla18/NexusStock",
+      "button": "View Page",
+      "url": "https://github.com/Ivanfuenla18/NexusStock"
+    },
+
+    {
       "title": "Phonebook",
       "description": "Phone book application developed with React and Node using Express as a backend server, storing the data with moongose ​​in MongoDB. It allows you to manage contacts, including creation, editing and deletion. Deployed in render.",
       "image": "Phonebook.png",
