@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "nav_title": "Iván PS",
+    "nav_home": "Inicio",
+    "nav_about": "Sobre mí",
+    "nav_projects": "Proyectos",
+    "nav_contact": "Contacto",
+    "nav_experience": "Experiencia"
+  },
+  "home": {
+    "welcome": "¡Bienvenido!"
+  },
+
+  "about": {
+    "title": "Hola, soy Iván Paniagua Sánchez 👋",
+    "description": "Desarrollador Full-Stack | Especialista en DAW & DAM 💻",
+    "details": [
+      "Con una sólida formación técnica en Desarrollo de Aplicaciones Web (DAW) y Multiplataforma (DAM), he consolidado un perfil versátil capaz de abordar proyectos en cualquier entorno. Me especializo en el ecosistema moderno de JavaScript, utilizando React para el frontend y Node.js para arquitecturas de servidor escalables. 🚀",
+      "Mi experiencia abarca desde la creación de interfaces dinámicas hasta el desarrollo de aplicaciones robustas con Java, PHP y SQL. Me enfoco en aplicar las mejores prácticas de desarrollo y un enfoque analítico para resolver problemas técnicos complejos y entregar soluciones de alta calidad. 🛠️"
+    ],
+    "highlights": [
+      "⚛️ React & Node.js ",
+      "📱 Desarrollo DAW & DAM",
+      "🤝 Trabajo en Equipo",
+      "🚀 Mentalidad Full-Stack"
+    ]
+  },
+  "projects": [
+    {
+      "title": "NexusStock",
+      "status": "🚀 EN DESARROLLO ACTIVO",
+      "description": "Sistema profesional de gestión de inventarios. Construido con una arquitectura de capas (MVC), cuenta con autenticación segura de usuarios mediante Bcrypt y una robusta integración con MongoDB Atlas. Incluye un flujo de trabajo automatizado para la gestión de Git y del servidor.",
+      "image": "NexusStock.png",
+      "github": "https://github.com/Ivanfuenla18/NexusStock",
+      "button": "Ver pagina",
+      "url": "https://nexusstock.onrender.com"
+    },
+    {
+      "title": "Agenda telefonica",
+
+      "description": "Aplicación de una agenda telefonica desarrollada con React y Node usando Express como servidor backend almacenando los datos con moongose en MongoDB. Permite gestionar contactos, incluyendo creación, edición y eliminación. Desplegada en render.",
+      "image": "Phonebook.png",
+      "github": "https://github.com/Ivanfuenla18/FullStackOpen/tree/main/part3/Phonebook_Backend",
+      "button": "Ver página",
+      "url": "https://phonebook-backend-nprq.onrender.com"
+    },
+    {
+      "title": "Cafeterias cerca de mí",
+      "status": "🚧🚧 EN DESARROLLO 🚧🚧",
+      "description": "Aplicación que permite obtener una lista de cafeterías cercanas utilizando la API de Google Maps,Desarrollada con React y desplegada en Vercel.",
+      "image": "Cafeterias.png",
+      "github": "https://github.com/Ivanfuenla18/Cafe",
+      "button": "Ver página",
+      "url": "https://cafe-nu-orcin.vercel.app"
+    },
+    {
+      "title": "Paises del Mundo y Clima",
+      "description": "Aplicación que permite buscar información detallada de más de 250 países. Integra la API de OpenWeatherMap para mostrar el clima en tiempo real de las capitales. Desarrollada con React, Axios y desplegada en Vercel con variables de entorno seguras.",
+      "image": "Countries.png",
+      "github": "https://github.com/Ivanfuenla18/Countries",
+      "button": "Ver página",
+      "url": "https://countries-rouge-two.vercel.app"
+    },
+    {
+      "title": "Pokedex Interactiva",
+      "description": "Aplicación web moderna que te permite explorar una lista de Pokémon, visualizar sus datos básicos como imagen, ID y tipos, y disfrutar de una interfaz interactiva y responsiva. Desarrollada utilizando React, Vite y Tailwind CSS, con datos de la PokeAPI.",
+      "image": "Pokedex.png",
+      "status": "🚧🚧 EN DESARROLLO 🚧🚧",
+      "github": "https://github.com/Ivanfuenla18/Pokedex",
+      "url": "https://ivanfuenla18.github.io/Pokedex",
+      "button": "Ver página"
+    },
+    {
+      "title": "Feedloop",
+      "status": "🚧🚧 EN DESARROLLO 🚧🚧",
+      "description": "Feedloop es aplicación web donde los miembros de un equipo pueden enviar feedback anónimo o identificado entre ellos. Ideal para entornos de trabajo colaborativos, equipos remotos o startups. Incluye paneles de administración, seguimiento de tendencias y gestión de usuarios.",
+      "image": "Feedloop.png",
+      "github": "https://github.com/Ivanfuenla18/Feedloop",
+      "button": "Ver código"
+    },
+    {
+      "title": "FlowSweet",
+      "description": "Sitio web de una floristería desarrollado con React y Tailwind CSS. Cuenta con un diseño moderno y responsivo, incluyendo páginas como Inicio, Acerca de y Contacto. El proyecto está desplegado en GitHub Pages.",
+      "image": "FlowSweet.png",
+      "github": "https://github.com/Ivanfuenla18/FlowSweet",
+      "url": "https://ivanfuenla18.github.io/FlowSweet/#/",
+      "button": "Ver pagina"
+    },
+    {
+      "title": "FullStackOpen Exercises",
+      "status": "📚 En curso",
+      "description": "Repositorio central que contiene los ejercicios del curso FullStackOpen de la Universidad de Helsinki. Incluye partes de React, Node.js y gestión de estados.",
+      "image": "FullStackOpen.png",
+      "github": "https://github.com/Ivanfuenla18/FullStackOpen",
+      "button": "Ver código"
+    },
+    {
+      "title": "Anubis Gaming",
+      "description": "Sitio web de venta de videojuegos desarrollado con HTML, CSS, JavaScript, PHP y MySQL. Incluye un chatbot llamado THOT, un minijuego de azar llamado MEHEN, sistema de autenticación de usuarios y una tienda con carrito y sistema de monedas.",
+      "image": "Annubis.png",
+      "github": "https://github.com/Ivanfuenla18/Anubis-Gaming",
+      "button": "Ver código"
+    },
+    {
+      "title": "Anubis Gaming 2.0",
+      "description": "Versión mejorada del proyecto Anubis Gaming, aplicando conocimientos del framework React y Node.js con Express como servidor backend.",
+      "image": "anubis.png",
+      "github": "https://github.com/Ivanfuenla18/Anubis-Gaming-2.0",
+      "button": "Ver código"
+    },
+    {
+      "title": "Tres en Raya",
+      "description": "Clásico juego de Tres en Raya desarrollado con HTML, CSS y JavaScript puro, sin frameworks ni librerías externas.",
+      "image": "Tres_en_raya.png",
+      "github": "https://github.com/Ivanfuenla18/Tres-en-raya",
+      "button": "Ver código"
+    }
+  ],
+  "experience": [
+    {
+      "year": "2023",
+      "title": "Grado Superior en Desarrollo de Aplicaciones Multiplataforma",
+      "institution": "I.E.S Gaspar Melchor de Jovellanos - Fuenlabrada",
+      "description": "Formación en desarrollo de aplicaciones multiplataforma. Enfoque en la creación de apps para diferentes plataformas como Android, entre otras."
+    },
+    {
+      "year": "2022",
+      "title": "Grado Superior en Desarrollo de Aplicaciones Web",
+      "institution": "I.E.S Matemático Puig Adam - Getafe",
+      "description": "Formación en desarrollo de aplicaciones web, con foco en tecnologías como HTML, CSS, JavaScript y bases de datos."
+    },
+    {
+      "year": "2021",
+      "title": "Bachillerato de Ciencias",
+      "institution": "I.E.S Dolores Ibárruri - Fuenlabrada",
+      "description": "Formación en ciencias, con asignaturas como matemáticas, física y química."
+    },
+    {
+      "year": "2020",
+      "title": "Educación Secundaria Obligatoria",
+      "institution": "I.E.S Dolores Ibárruri - Fuenlabrada",
+      "description": "Finalización de la educación secundaria obligatoria."
+    }
+  ],
+  "contact": {
+    "title": "Contacto",
+    "description": "Puedes comunicarte conmigo a través de mis redes sociales o enviándome un correo electrónico.",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "message": "Usamos cookies para analizar el tráfico del sitio con Google Analytics. Puedes aceptarlas o rechazarlas: no se cargará ningún análisis hasta que decidas.",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
+  },
+  "notfound": {
+    "title": "Página no encontrada",
+    "text": "Lo sentimos, la página que buscas no existe o ha sido movida.",
+    "back": "Volver al inicio"
+  }
+}
