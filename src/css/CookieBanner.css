@@ -1,0 +1,98 @@
+/* Banner de consentimiento de cookies (RGPD) */
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1080;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-top: 3px solid #7a1cb3;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+}
+
+.cookie-banner__content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cookie-banner__text {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  flex: 1 1 320px;
+}
+
+.cookie-banner__text strong {
+  color: #c084fc;
+}
+
+.cookie-banner__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cookie-banner__btn {
+  border: 2px solid #7a1cb3;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.cookie-banner__btn--accept {
+  background-color: #7a1cb3;
+  color: #ffffff;
+}
+
+.cookie-banner__btn--accept:hover,
+.cookie-banner__btn--accept:focus-visible {
+  background-color: #6a169b;
+  border-color: #6a169b;
+}
+
+.cookie-banner__btn--reject {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.cookie-banner__btn--reject:hover,
+.cookie-banner__btn--reject:focus-visible {
+  background-color: #7a1cb3;
+  color: #ffffff;
+}
+
+/* Evita que el banner tape contenido (footer) mientras está visible */
+body.has-cookie-banner {
+  padding-bottom: 96px;
+}
+
+@media (max-width: 575.98px) {
+  .cookie-banner {
+    padding: 0.85rem 1rem;
+  }
+
+  .cookie-banner__actions {
+    width: 100%;
+  }
+
+  .cookie-banner__btn {
+    flex: 1 1 0;
+    padding: 0.5rem 0.75rem;
+  }
+
+  body.has-cookie-banner {
+    padding-bottom: 150px;
+  }
+}

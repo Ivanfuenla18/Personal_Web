@@ -1,0 +1,55 @@
+# Workflow de despliegue automático a GitHub Pages.
+#
+# Qué hace:
+#   1. Se dispara en cada push a la rama `main` (o manualmente desde la pestaña Actions).
+#   2. Prepara Node.js 20 y las dependencias del proyecto (npm ci).
+#   3. Compila la SPA con Vite (npm run build), generando la carpeta `dist/`.
+#   4. Publica el contenido de `dist/` en la rama `gh-pages` con peaceiris/actions-gh-pages,
+#      que es exactamente lo que sirve GitHub Pages en
+#      https://ivanfuenla18.github.io/Personal_Web/
+#
+# Sustituye al despliegue manual con `npm run deploy` (gh-pages -d dist).
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Permisos necesarios para que la acción pueda escribir en la rama gh-pages.
+permissions:
+  contents: write
+
+# Evita despliegues solapados si se hacen varios push seguidos.
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Compilar el proyecto
+        run: npm run build
+
+      - name: Publicar dist/ en la rama gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          # Fuerza un historial limpio en la rama de publicación.
+          force_orphan: true

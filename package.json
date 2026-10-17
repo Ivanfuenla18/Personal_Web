@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Portafolio personal de Iván Paniagua Sánchez, desarrollador Full-Stack.",
   "author": "Iván Paniagua Sánchez <ivanfuenla18@gmail.com>",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",

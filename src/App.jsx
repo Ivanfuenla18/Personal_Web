@@ -9,6 +9,7 @@ import { Suspense } from 'react';
 import './css/App.css';
 import Timeline from './pages/Timeline';
 import NotFound from './pages/NotFound';
+import CookieBanner from './components/CookieBanner';
 
 function Comps() {
   return (
@@ -23,6 +24,7 @@ function Comps() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
+      <CookieBanner />
     </>
   );
 };

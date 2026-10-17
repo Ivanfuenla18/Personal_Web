@@ -149,6 +149,12 @@
     "message": "Mensaje",
     "send": "Enviar"
   },
+  "cookies": {
+    "title": "Cookies",
+    "message": "Usamos cookies para analizar el tráfico del sitio con Google Analytics. Puedes aceptarlas o rechazarlas: no se cargará ningún análisis hasta que decidas.",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
+  },
   "notfound": {
     "title": "Página no encontrada",
     "text": "Lo sentimos, la página que buscas no existe o ha sido movida.",

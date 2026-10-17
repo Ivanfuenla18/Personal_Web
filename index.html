@@ -3,19 +3,11 @@
   <head>
     <meta charset="UTF-8" />
 
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-NPLS0F1PMH"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-NPLS0F1PMH");
-    </script>
+    <!--
+      Google Analytics (gtag.js) ya NO se carga aquí.
+      Solo se inyecta dinámicamente cuando el usuario acepta las cookies
+      (ver src/components/CookieBanner.jsx), cumpliendo con el RGPD.
+    -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -67,6 +59,10 @@
     />
 
     <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
     <link
       rel="icon"
       type="image/png"
