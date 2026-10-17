@@ -1,0 +1,172 @@
+/* --- TUS ESTILOS ORIGINALES (SIN CAMBIOS) --- */
+.timeline {
+  border-left: 3px solid blueviolet;
+  border-radius: 4px;
+  margin: 0 auto;
+  letter-spacing: 0.2px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  max-width: 40%; /* Esto lo corregiremos en el media query para móvil */
+  font-family: "Poppins", sans-serif !important;
+}
+
+.card {
+  background-color: #1a1a1a !important;
+  color: white !important;
+}
+
+.noo {
+  border: none !important;
+}
+
+.timeline h2,
+.timeline h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.timeline .event {
+  border-bottom: 1px dashed #e8ebf1;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.timeline .event:last-of-type {
+  border: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  left: -207px;
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+}
+
+.timeline .event:after {
+  box-shadow: 0 0 0 3px blueviolet;
+  left: -55.8px;
+  background: #fff;
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 5px;
+}
+
+.cv-event {
+  border: none;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.cv-event h3 {
+  margin-bottom: 8px;
+}
+
+.cv-event p {
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  color: #ddd;
+}
+
+.cv-icons-center {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.cv-button {
+  background-color: blueviolet;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #7a1cb3;
+}
+
+/* --- SECCIÓN RESPONSIVE (LO QUE HACE QUE SEA REACTIVE) --- */
+
+@media (max-width: 1024px) {
+  .timeline {
+    max-width: 70%; /* En tablets ampliamos el ancho */
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    max-width: 90%; /* En móviles ocupa casi toda la pantalla */
+    padding: 30px;
+    margin-left: 40px; /* Dejamos espacio para la línea a la izquierda */
+  }
+
+  .timeline .event:before {
+    left: 0;
+    position: relative; /* La fecha ya no flota a la izquierda, se pone arriba del título */
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: blueviolet;
+  }
+
+  .timeline .event:after {
+    left: -35.8px; /* Ajustamos el punto para que caiga sobre la línea en móvil */
+  }
+
+  .cv-icons-center {
+    flex-direction: column; /* Botones de CV uno sobre otro en móviles pequeños */
+    align-items: center;
+  }
+}
+
+/* --- AJUSTES PARA MÓVIL (RESOLUCIÓN DE ERRORES) --- */
+
+@media (max-width: 768px) {
+  .timeline {
+    max-width: 90% !important; /* Corrige el texto estrecho */
+    padding: 20px 20px 20px 45px !important; /* Da espacio interno */
+    margin-left: 20px !important; /* Empuja la línea a la derecha para que se vea */
+  }
+
+  .timeline .event {
+    padding-top: 30px; /* Espacio para la fecha que sube */
+  }
+
+  .timeline .event:before {
+    left: 0 !important; /* Mueve la fecha del exterior al interior */
+    position: absolute !important;
+    top: 0px !important;
+    text-align: left !important;
+    font-weight: 600 !important;
+    color: blueviolet !important;
+    width: 100% !important;
+  }
+
+  .timeline .event:after {
+    left: -48.5px !important; /* Ajusta el punto morado sobre la línea vertical */
+    top: 38px !important; /* Alinea el punto con el primer renglón del texto */
+  }
+}

@@ -1,0 +1,16 @@
+/* Efecto hover en la imagen para que mole más */
+.img-fluid {
+  transition: all 0.4s ease;
+}
+
+.img-fluid:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(122, 28, 179, 0.3) !important; /* Sombra morada */
+}
+
+@media (max-width: 991px) {
+  #sobre {
+    text-align: center;
+    padding-top: 80px;
+  }
+}

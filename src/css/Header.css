@@ -1,0 +1,143 @@
+/* Elimina espacios no deseados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fl {
+  margin-left: 10px;
+}
+/* Navbar */
+/* Cambiar el color de las líneas del navbar-toggler */
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.navbar {
+  background-color: #101010 !important;
+  color: white !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 900;
+  width: 100%;
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+/* Contenedor de la navbar */
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+/* Imagen del logo */
+.navbar img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Marca (logo + nombre) */
+.navbar-brand {
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0 !important;
+}
+
+.navbar-brand:hover {
+  color: blueviolet !important;
+  transition: 0.5s ease !important;
+}
+
+/* Estilos de los links */
+.navbar a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar a span {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.navbar a:hover {
+  color: blueviolet !important;
+  transition: 0.5s ease !important;
+}
+
+/* Navbar expandida en pantallas grandes */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* Ajustes del menú desplegable en móviles */
+.navbar-collapse {
+  background-color: #101010 !important;
+  width: 100% !important;
+  padding: 1rem;
+}
+
+/* Botón del toggle */
+.navbar-toggler {
+  border: none !important;
+}
+
+/* Estilos del switch de idioma */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: blueviolet;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+.dee {
+  width: 89% !important;
+}

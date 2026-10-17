@@ -1,0 +1,44 @@
+.proj {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card-per {
+    background-color: #000 !important;
+    border: 2px solid #fff !important;
+    color: #fff !important;
+    height: auto;
+    margin: 10px;
+    max-width: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Esto asegura que los elementos dentro de la tarjeta se alineen verticalmente */
+    justify-content: space-between; /* Esto distribuye el contenido y asegura que el botón esté hacia abajo */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4); /* Agrega una sombra blanca */
+  }
+  
+  .btn-per {
+    align-self: center; /* Esto asegura que el botón esté centrado */
+    background-color: #8a2be2;
+    border: 2px solid #8a2be2;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px; /* Aumento del tamaño de la fuente */
+    text-decoration: none;
+    text-align: center; /* Asegura que el texto dentro del botón esté centrado */
+    padding: 5px; 
+    border-radius: 5%;
+    margin-bottom: 10px;
+    cursor: pointer; 
+  }
+  
+  .btn-per:hover {
+    background-color: #7a1cb3; /* Añadir un cambio de color al pasar el ratón por encima */
+    border-color: #7a1cb3; /* Cambiar el borde al pasar el ratón */
+    transition: 1s ease;
+  }
+  
