@@ -2,7 +2,7 @@
 #
 # Qué hace:
 #   1. Se dispara en cada push a la rama `main` (o manualmente desde la pestaña Actions).
-#   2. Prepara Node.js 20 y las dependencias del proyecto (npm ci).
+#   2. Prepara Node.js 22 LTS y las dependencias del proyecto (npm ci).
 #   3. Compila la SPA con Vite (npm run build), generando la carpeta `dist/`.
 #   4. Publica el contenido de `dist/` en la rama `gh-pages` con peaceiris/actions-gh-pages,
 #      que es exactamente lo que sirve GitHub Pages en
@@ -31,12 +31,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout del repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
-      - name: Configurar Node.js 20
-        uses: actions/setup-node@v4
+      - name: Configurar Node.js 22 LTS
+        uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Instalar dependencias
