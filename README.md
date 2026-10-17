@@ -23,7 +23,8 @@ Portafolio web personal desarrollado con **React** y **Vite**, con soporte multi
 - **SEO cuidado**: metadatos, Open Graph, Twitter Card y datos estructurados JSON-LD.
 - **Descarga de CV** en español e inglés.
 - **Formulario de contacto** que abre el cliente de correo (`mailto:`).
-- **Despliegue automatizado** en GitHub Pages mediante `gh-pages`.
+- **Aviso de cookies (RGPD)**: Google Analytics solo se carga tras el consentimiento del usuario.
+- **Despliegue automatizado** en GitHub Pages con **GitHub Actions** en cada push a `main`.
 
 ## 🧱 Stack tecnológico
 
@@ -35,31 +36,33 @@ Portafolio web personal desarrollado con **React** y **Vite**, con soporte multi
 | Rutas | React Router 7 (`HashRouter`) |
 | i18n | i18next + react-i18next + i18next-http-backend |
 | Linting | ESLint 9 |
-| Deploy | gh-pages → GitHub Pages |
+| Deploy | GitHub Actions → GitHub Pages |
 
 ## 📂 Estructura del proyecto
 
 ```text
 .
+├── .github/workflows/     # Despliegue automático en GitHub Pages
 ├── public/
 │   ├── assets/            # CV en PDF (ES / EN)
 │   ├── locales/           # Traducciones: es/conf.json, en/conf.json
 │   ├── og-image.jpg       # Imagen para redes sociales
 │   └── *.png              # Imágenes del sitio y de los proyectos
 ├── src/
-│   ├── components/        # Header, Footer
+│   ├── components/        # Header, Footer, CookieBanner
 │   ├── config/            # Configuración de i18next
 │   ├── css/               # Hojas de estilo por componente
 │   ├── pages/             # Home, About, Projects, Timeline, Contact, NotFound
 │   ├── App.jsx            # Rutas de la aplicación
 │   └── main.jsx           # Punto de entrada
 ├── index.html
+├── LICENSE
 └── vite.config.js
 ```
 
 ## 🚀 Puesta en marcha
 
-Requisitos: **Node.js 20+** y **npm**.
+Requisitos: **Node.js 20+** (probado con 22 LTS) y **npm**.
 
 ```bash
 # 1. Clonar el repositorio
@@ -96,16 +99,23 @@ El idioma por defecto (`fallbackLng`) es el **español**.
 
 ## 🚢 Despliegue
 
-El sitio se publica en GitHub Pages desde la rama `gh-pages`:
+El despliegue es **automático**: al hacer push a `main`, el workflow
+`.github/workflows/deploy.yml` compila el proyecto y publica `dist/` en la rama
+`gh-pages`, que es la que sirve GitHub Pages.
+
+```bash
+git add -A && git commit -m "Descripción del cambio" && git push
+```
+
+También puedes desplegar manualmente:
 
 ```bash
 npm run deploy
 ```
 
-> Si haces cambios en el código fuente, no olvides subirlos también:
-> ```bash
-> git add -A && git commit -m "Descripción del cambio" && git push
-> ```
+## 📄 Licencia
+
+Este proyecto está publicado bajo la licencia [MIT](LICENSE).
 
 ## 🗂️ Proyectos destacados
 
